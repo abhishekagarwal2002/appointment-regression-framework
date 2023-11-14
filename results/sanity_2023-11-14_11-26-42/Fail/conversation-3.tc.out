@@ -1,0 +1,17 @@
+==SETUP START==
+BLOCK-TIME-RANGE , MODALITY=US, SDATE=TODAY+0, STIME=10:00, ETIME=14:00
+==SETUP END==
+
+==CONVERSATION START==
+[Thanks for calling] Castle Hill Diagnostics-Staging. Are you looking to book a new appointment? >>> yes
+Please read out the [requested scan] as mentioned in the referral letter. >>> US abdo
+you have requested for U S abdomen . [is that correct?] >>> yes
+The [requested scan] requires 6 hours of fasting. [Will that be okay with the patient?] >>> yes
+Is the patient less than 5 years old? [Please say Yes or No.] >>> no
+[The earliest available slot is] tomorrow morning at 09:30 AM . [Are you ok to proceed or do you have any other preference?] >>> later
+[There is a slot available] tomorrow morning at 10:30 AM. [May I book it for you?] >>> on monday
+Yes [there is a slot available at] 09:00 AM on Monday dated 06 November. [Does that work for you?] >>> do you have something in afternoon
+[Sorry, we are booked for the requested time. But we have a slot available at] 10:30 AM. Shall I book it for you? >>> yes
+[Please spell out the first name of the Patient.] >>> Abhishek
+[Please spell out the last name of the Patient.] >> Agarwal
+==CONVERSATION END==

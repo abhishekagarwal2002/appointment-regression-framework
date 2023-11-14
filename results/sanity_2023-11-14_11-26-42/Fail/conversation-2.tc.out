@@ -1,0 +1,11 @@
+==SETUP START==
+CENTER_ID=15
+BLOCK-TIME-RANGE , MODALITY=US, SDATE=TODAY+0, STIME=10:00, ETIME=14:00
+==SETUP END==
+
+==CONVERSATION START==
+[thanks for calling] are you looking for new appointment >>> yes
+Please read out the [requested scan] as mentioned by your doctor in the referral letter >>> US hand
+You have requested for us hand . [Is that correct?] >>> yes that is correct
+[When would you like to visit us?] >>> saturday at 1pm
+==CONVERSATION END==
